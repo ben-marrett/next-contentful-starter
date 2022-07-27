@@ -9,14 +9,14 @@
     <script type="text/jsx">
       const app = document.getElementById('app');
 
-      function Header() {
-        return (<h1>Develop. Preview. Ship. 🚀</h1>);
+      function Header({title}) {
+        return (<h1>{title? title : "Welcome!"}</h1>);
       }
 
       function Homepage() {
         return (
           <div>
-            <Header />
+            <Header title="React 💙" />
           </div>
         );
       }
