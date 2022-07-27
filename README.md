@@ -1,1 +1,1 @@
-First NextJS project
+My first NextJS project, working from the documentation [here](https://nextjs.org/learn/foundations/about-nextjs)
